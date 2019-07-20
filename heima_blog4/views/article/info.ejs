@@ -1,0 +1,21 @@
+<%- include("../loaout/header.ejs")%>
+
+
+<div class="container">
+    <h1 class="text-center">
+      <%=article.title%> 
+  
+      <% if(islogin && article.authorid==user.id){%>
+        <a href="/article/edit/<%=article.id%>" class="btn  btn-info pull-right">编辑</a>
+      <%}%>
+    </h1>
+    <hr>
+  
+    <div><%- article.content%></div>
+<script>
+  $(function () {
+    
+  })
+</script>
+
+<%- include("../loaout/footer.ejs")%>
