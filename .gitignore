@@ -1,1 +1,4 @@
-/密码.txt
+﻿/密码.txt
+/node_modules
+/.idea
+/.gitignore

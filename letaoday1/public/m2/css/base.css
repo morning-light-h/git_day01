@@ -1,0 +1,152 @@
+/* 公共样式 */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+body{
+	background:#fff;
+	font-size:14px;
+}
+
+.mui-content{
+	background:#FFF;
+}
+
+.my-header,
+.my-footer {
+	background: #006699;
+}
+
+.my-header h1 {
+  color: #fff;
+}
+
+.my-header .mui-icon {
+  color: #fff;
+}
+
+.my-footer .mui-tab-item{
+  color: #fff;
+}
+
+.my-footer .mui-tab-item.mui-active {
+	color: darkorange;
+}
+
+.nav-links {
+  padding: 10px;
+  /* 清除浮动  也可以在标签后面加上mui-clearfix*/
+  overflow: hidden;
+}
+
+.nav-links a {
+  float: left;
+  width: 33.33%;
+}
+
+.nav-links a img {
+  width: 100%;
+  display: block;
+}
+
+.brand {
+  padding: 0 10px;
+}
+
+.brand img {
+  width: 100%;
+}
+
+.brand ul {
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.brand ul li {
+  float: left;
+  width: 25%;
+}
+
+.brand ul li a {
+  display: block;
+}
+
+.brand ul li a img {
+  width: 100%;
+}
+
+.product {
+  padding: 0 10px;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product ul {
+  overflow: hidden;
+  padding: 6px 0;
+}
+
+.product ul li{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.product ul li a {
+  display: block;
+  box-shadow: 0 0 5px #ccc;
+  padding: 5px;
+}
+
+.product ul li img {
+  width: 100%;
+}
+
+.product ul li .name{
+  display: block;
+  color: #8f8f94;
+  text-align: center;
+  line-height: 18px;
+  height: 38px;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.product ul li p {
+  text-align: center;
+  padding-top: 6px;
+}
+
+.product ul li p span:first-child {
+  color: #ff3300;
+  padding-right: 2px;
+}
+
+.product ul li p span:last-child {
+  text-decoration: line-through;
+  padding-left: 2px;
+}
+
+.product ul li .buy-now {
+  display: block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #006699;
+  color: #fff;
+  border-radius: 3px;
+  margin: 0 auto 5px auto;
+}
